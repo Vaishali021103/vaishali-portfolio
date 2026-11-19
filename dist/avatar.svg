@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151922" />
+      <stop offset="50%" stop-color="#0e1118" />
+      <stop offset="100%" stop-color="#090b0e" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ccff00" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ccff00" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="mesh" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1e2533" />
+      <stop offset="100%" stop-color="#0a0c10" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="400" height="480" rx="20" fill="url(#bgGrad)" />
+  <rect x="1" y="1" width="398" height="478" rx="19" stroke="#252c3b" stroke-width="2" />
+  
+  <!-- Subtle Grid Backdrop -->
+  <path d="M40 0V480 M80 0V480 M120 0V480 M160 0V480 M200 0V480 M240 0V480 M280 0V480 M320 0V480 M360 0V480" stroke="#161b26" stroke-width="1" />
+  <path d="M0 40H400 M0 80H400 M0 120H400 M0 160H400 M0 200H400 M0 240H400 M0 280H400 M0 320H400 M0 360H400 M0 400H400 M0 440H400" stroke="#161b26" stroke-width="1" />
+
+  <!-- Center Persona Card Shape -->
+  <circle cx="200" cy="180" r="90" fill="url(#mesh)" stroke="#2b3446" stroke-width="2" />
+  <circle cx="200" cy="180" r="90" fill="url(#glowGrad)" />
+
+  <!-- Monogram VS -->
+  <text x="200" y="195" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="64" font-weight="800" fill="#f8fafc" text-anchor="middle" letter-spacing="-2">
+    VS
+  </text>
+
+  <!-- Lime accent indicator dot -->
+  <circle cx="265" cy="120" r="7" fill="#ccff00" />
+  <circle cx="265" cy="120" r="14" stroke="#ccff00" stroke-width="1.5" stroke-opacity="0.4" />
+
+  <!-- Role & Status Banner -->
+  <rect x="50" y="310" width="300" height="48" rx="12" fill="#131720" stroke="#262f40" stroke-width="1.5" />
+  <text x="200" y="340" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="600" fill="#ccff00" text-anchor="middle" letter-spacing="1">
+    SOFTWARE ENGINEER
+  </text>
+
+  <!-- Editorial Meta Subtitle -->
+  <text x="200" y="390" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="15" font-weight="500" fill="#94a3b8" text-anchor="middle">
+    Zeus Learning · Mumbai, India
+  </text>
+  <text x="200" y="420" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="400" fill="#64748b" text-anchor="middle">
+    [ Headshot Placeholder · Configurable in profile.ts ]
+  </text>
+</svg>
